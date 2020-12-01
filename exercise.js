@@ -23,4 +23,4 @@ var student = {
   class: "intern",
   rollno: 12,
 };
-console.log(student);
+console.log(Object.keys(student).join(","));
